@@ -16,13 +16,12 @@ def summon_captain_planet(veggies)
 end
 
 def long_planeteer_calls(words)
-
-  words.each_with_index do |words, i|
-  if words.length > 4
-    return true
-  else words.length < 4
-    false
-  end
+i = 0
+if array.any? {|i| i.length > 4}
+  return true
+else
+  return false
+  i = i + 1
 end
 end
 
