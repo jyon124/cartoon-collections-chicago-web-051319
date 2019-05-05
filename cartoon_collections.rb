@@ -15,7 +15,7 @@ def summon_captain_planet(veggies)
   return new_veggies
 end
 
-def long_planeteer_calls
+def long_planeteer_calls(words)
 
 end
 
