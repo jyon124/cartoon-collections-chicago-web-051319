@@ -1,5 +1,5 @@
 def roll_call_dwarves(dwarves)
-  new_dwarves = []
+  new_dwarves = ["YES"]
   dwarves.each_with_index do |dwarves, index|
     new_dwarves << "#{index}. #{dwarves}"
   end
