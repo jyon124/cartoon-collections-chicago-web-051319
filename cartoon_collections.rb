@@ -11,6 +11,8 @@ def summon_captain_planet(veggies)
   exclamation = "!"
   veggies.each do |veggies|
     new_veggies << "#{veggies}#{exclamation}".upperCase
+  end
+  puts new_veggies
 end
 
 def long_planeteer_calls# code an argument here
