@@ -1,6 +1,6 @@
 def roll_call_dwarves(dwarves)
   new_dwarves = []
-  dwarves.each do |dwarves|
+  dwarves.each do |dwarves, number|
 
 end
 
