@@ -12,7 +12,7 @@ def summon_captain_planet(veggies)
   veggies.each do |veggies|
     new_veggies << "#{veggies}#{exclamation}"
   end
-  puts summon_captain_planet(veggies)
+  puts veggies
 end
 
 def long_planeteer_calls# code an argument here
