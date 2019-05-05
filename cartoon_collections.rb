@@ -10,7 +10,7 @@ def summon_captain_planet(veggies)
   new_veggies = []
   exclamation = "!"
   veggies.each do |veggies|
-    new_veggies.push("#{veggies}#{exclamation}".upcase)
+    new_veggies << "#{veggies}#{exclamation}"
   end
   puts new_veggies
 end
