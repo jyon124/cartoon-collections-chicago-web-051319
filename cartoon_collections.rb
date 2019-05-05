@@ -18,9 +18,9 @@ end
 def long_planeteer_calls(words)
 
   words.each_with_index do |words, i|
-  if words[i].length > 4
+  if words.length > 4
     return true
-  else words[i].length < 4
+  else words.length < 4
     false
   end
 end
