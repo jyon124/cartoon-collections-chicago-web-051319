@@ -6,7 +6,7 @@ def roll_call_dwarves(dwarves)
   puts new_dwarves
 end
 
-def summon_captain_planet(veggies)
+def summon_captain_planet(Array)
   # Your code here
 end
 
